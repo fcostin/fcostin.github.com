@@ -9,17 +9,26 @@ shameless self-promotion
 
 1.  [weighted_median](https://github.com/fcostin/weighted_median) - a library to
     compute the weighted median, in C++.
-2.  [abfc](https://github.com/fcostin/abfc) - a self hosting compiler for the esoteric
+2.  [hangman_cpp](https://github.com/fcostin/hangman_cpp) - a program to figure
+    out who wins the game of "adversarial" hangman if both players play
+    optimally. The code, written in C++, carries out a full depth alpha-beta pruned
+    search over the whole game tree. There's a brief write up of the problem, the
+    approach, and a partially complete table of computed results
+    [over here](http://fcostin.github.com/hangman_results/). The cases I haven't
+    computed yet are the ones where the alpha-beta search didn't terminate after
+    leaving my computer on overnight.
+3.  [abfc](https://github.com/fcostin/abfc) - a self hosting compiler for the esoteric
     [brainfuck](http://en.wikipedia.org/wiki/Brainfuck) language, targeting GNU
     assembly backends for `ia32` and `x86_64`. Actually there are two compilers in this
     project - the second compiler is for a python DSL macro-language that targets
     brainfuck. This latter compiler, implemented in python, is used to generate the
     source of the former self-hosting brainfuck compiler. This sure beats writing
     the self-hosting brainfuck compiler in brainfuck by hand.
-3.  [abfc_hs](https://github.com/fcostin/abfc_hs) - a haskell port of the python DSL
-    macro-language to brainfuck compiler. Includes a parser for the macro-language
-    implemented using the lovely [Parsec](http://www.haskell.org/haskellwiki/Parsec)
-    combinator library.
+4.  [abfc_hs](https://github.com/fcostin/abfc_hs) - a Haskell port of
+    [abfc]'s(https://github.com/fcostin/abfc) python DSL macro-language
+    to brainfuck compiler. Includes a parser for the macro-language implemented
+    using the lovely [Parsec](http://www.haskell.org/haskellwiki/Parsec) combinator
+    library.
 
 
 ### other stuff
