@@ -37,6 +37,8 @@ If you'd like to get in touch, you can find my email address on my [github page]
     exploratory programs written to help learn Haskell. The most interesting one
     is a noughts-and-crosses game against the computer, featuring a crude GUI via
     SDL bindings and multithreading via `Control.Concurrent`.
+6.  [eve_space_trucker](https://github.com/fcostin/eve_space_trucker) - a utility
+    to plan profitable trade routes for the game Eve Online, written in `C#`.
 
 
 ### elsewhere
