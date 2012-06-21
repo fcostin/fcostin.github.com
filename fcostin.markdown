@@ -1,7 +1,7 @@
 shameless self-promotion
 ------------------------
 
-Hello there! My name is Reuben Fletcher-Costin. I enjoy writing code. This is a vanity page pointing to some of that code I've written.
+Hello there! My name is Reuben Fletcher-Costin. I enjoy writing code. This is a vanity page pointing to some of the code I've written.
 
 If you'd like to get in touch, you can find my email address on my [github page](https://github.com/fcostin).
 
@@ -33,6 +33,10 @@ If you'd like to get in touch, you can find my email address on my [github page]
     to brainfuck compiler. Includes a parser for the macro-language implemented
     using the lovely [Parsec](http://www.haskell.org/haskellwiki/Parsec) combinator
     library.
+5.  [learnmeahaskell](https://github.com/fcostin/learnmeahaskell) - some early
+    exploratory programs written to help learn Haskell. The most interesting one
+    is a noughts-and-crosses game against the computer, featuring a crude GUI via
+    SDL bindings and multithreading via `Control.Concurrent`.
 
 
 ### elsewhere
