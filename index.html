@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="static/markdown_css/markdown.css" />
+</head>
+<body>
+<h2>shameless self-promotion</h2>
+<p>Hello there! My name is Reuben Fletcher-Costin. I enjoy writing code. This is a vanity page pointing to some of the code I've written.</p>
+<p>If you'd like to get in touch, you can find my email address on my <a href="https://github.com/fcostin">github page</a>.</p>
+<h3>open source</h3>
+<ul>
+<li>Optimisations to Ridge Regression GCV code. <a href="https://github.com/scikit-learn/scikit-learn/pull/650">Here's the pull request</a>. This is a contribution to the <a href="http://scikit-learn.org">scikit-learn</a> machine learning library for python.</li>
+</ul>
+<h3>strange things I have coded for my own amusement</h3>
+<ol>
+<li><a href="https://github.com/fcostin/weighted_median">weighted_median</a> - a library to
+    compute the weighted median, in C++.</li>
+<li><a href="https://github.com/fcostin/hangman_cpp">hangman_cpp</a> - a program to figure
+    out who wins the game of "adversarial" hangman if both players play
+    optimally. The code, written in C++, carries out a full depth alpha-beta pruned
+    search over the game tree. There's a brief write up of the problem, the
+    approach, and a partially complete table of computed results
+    <a href="http://fcostin.github.com/hangman_results/">over here</a>. The cases I haven't
+    computed yet are the ones where the alpha-beta search didn't terminate after
+    leaving my computer on overnight.</li>
+<li><a href="https://github.com/fcostin/abfc">abfc</a> - a self hosting compiler for the esoteric
+    <a href="http://en.wikipedia.org/wiki/Brainfuck">brainfuck</a> language, targeting GNU
+    assembly backends for <code>ia32</code> and <code>x86_64</code>. Actually there are two compilers in this
+    project - the second compiler is for a python DSL macro-language that targets
+    brainfuck. This latter compiler, implemented in python, is used to generate the
+    source of the former self-hosting brainfuck compiler. This sure beats writing
+    the self-hosting brainfuck compiler in brainfuck by hand.</li>
+<li><a href="https://github.com/fcostin/abfc_hs">abfc_hs</a> - a Haskell port of
+    <a href="https://github.com/fcostin/abfc">abfc</a>'s python DSL macro-language
+    to brainfuck compiler. Includes a parser for the macro-language implemented
+    using the lovely <a href="http://www.haskell.org/haskellwiki/Parsec">Parsec</a> combinator
+    library.</li>
+<li><a href="https://github.com/fcostin/learnmeahaskell">learnmeahaskell</a> - some early
+    exploratory programs written to help learn Haskell. The most interesting one
+    is a noughts-and-crosses game against the computer, featuring a crude GUI via
+    SDL bindings and multithreading via <code>Control.Concurrent</code>.</li>
+<li><a href="https://github.com/fcostin/eve_space_trucker">eve_space_trucker</a> - a utility
+    to plan profitable trade routes for the game Eve Online, written in <code>C#</code>.</li>
+</ol>
+<h3>elsewhere</h3>
+<ul>
+<li>I've entered the odd machine learning competition at <a href="http://kaggle.com">kaggle.com</a>.
+    My best result to date is placing 3rd globally in the 24 hour Data Science Global
+    Hackathon as part of a team with Thom and Mike. <a href="http://www.kaggle.com/users/5218/roobs#profile-results">Here's my kaggle profile</a>.</li>
+<li><a href="http://projecteuler.net/profile/a_roobs.png">my profile</a> over at <a href="http://projecteuler.net/">project euler</a></li>
+<li>I was mucking about with <a href="http://en.wikipedia.org/wiki/Code_golf">code golf</a> over on stack exchange a while ago. Here's <a href="http://codegolf.stackexchange.com/users/516/roobs">my profile</a>. Did you know there's also a programming language called <a href="http://www.golfscript.com/golfscript/">GolfScript</a>? It's pretty crazy.</li>
+</ul></body>
+</html>
