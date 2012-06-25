@@ -47,4 +47,4 @@ If you'd like to get in touch, you can find my email address on my [github page]
     My best result to date is placing 3rd globally in the 24 hour Data Science Global
     Hackathon as part of a team with Thom and Mike. [Here's my kaggle profile](http://www.kaggle.com/users/5218/roobs#profile-results).
 *   [my profile](http://projecteuler.net/profile/a_roobs.png) over at [project euler](http://projecteuler.net/)
-
+*   I was mucking about with [code golf](http://en.wikipedia.org/wiki/Code_golf) over on stack exchange a while ago. Here's [my profile](http://codegolf.stackexchange.com/users/516/roobs). Did you know there's also a programming language called [GolfScript](http://www.golfscript.com/golfscript/)? It's pretty crazy.
