@@ -1,0 +1,87 @@
+/* n.b. i've done a fair bit of hacking away at the original markdown.css
+ * cribbing a fair bit of inspiration from what github does when i view
+ * markdown source from their site - rfc, 2012. */
+body{
+    margin: 0 auto;
+    font: helvetica,arial,freesans,clean,sans-serif;
+    font-size: 14px;
+    background-color: #ffffff;
+    color: #444444;
+    line-height: 1;
+    max-width: 600px;
+    padding: 30px;
+}
+h1, h2, h3, h4 {
+    color: #111111;
+    font-weight: 600;
+}
+h1, h2, h3, h4, h5, p {
+    margin-bottom: 24px;
+    padding: 0;
+}
+h1 {
+    font-size: 32px;
+}
+h2 {
+    font-size: 24px;
+}
+h3 {
+    font-size: 21px;
+}
+h4 {
+    font-size: 18px;
+}
+h5 {
+    font-size: 16px;
+}
+a {
+    color: #0099ff;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+a:hover {
+    text-decoration: none;
+    color: #ff6600;
+}
+a:visited {
+    color: purple;
+}
+ul, ol {
+    padding: 0;
+    margin-left: 24px;
+}
+li ul, li ul {
+    margin-left: 24px;
+}
+p, ul, ol, li {
+    line-height: 16px;
+}
+pre {
+    padding: 4px;
+    overflow: auto;
+    white-space: pre-wrap;
+    border: 1px solid #a0a0a0;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    background-color: #eeeeee;
+    color: #333333;
+    line-height: 1.2em;
+    font-size: 12px;
+}
+code {
+    font-family: "Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+}
+
+p code {
+    line-height: 1.2em;
+    font-size: 12px;
+    border: 1px solid #d0d0d0;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    background-color: #f0f0f0;
+    color: #222222;
+    font-size: 12px;
+}
