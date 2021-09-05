@@ -24,7 +24,7 @@ I am interested in probabilistic modelling and Bayesian inference.
 
 *	Open source: [scikit-learn](https://scikit-learn.org) -- improve performance of ridge regression generalised cross-validation ([pull-request](https://github.com/scikit-learn/scikit-learn/pull/650)).
 
-*	Hobby project: [abfc](https://github.com/fcostin/abc), a compiler for the esoteric brainfuck programming language, implemented in brainfuck; [abfc_hs](https://github.com/fcostin/abfc_hs), a parser and compiler for a macro language used to express above brainfuck compiler.
+*	Hobby project: [abfc](https://github.com/fcostin/abfc), a compiler for the esoteric brainfuck programming language, implemented in brainfuck; [abfc_hs](https://github.com/fcostin/abfc_hs), a parser and compiler for a macro language used to express above brainfuck compiler.
 
 
 ### Contact
