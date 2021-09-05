@@ -17,7 +17,7 @@ I am interested in probabilistic modelling and Bayesian inference.
 
 ### 2020
 
-*	Interactive demo: [crow-bandit-brain](https://fcostin.github.io/crow-bandit-brain/) crudely models the experimental protocol and learning task of a crow, as described in [Nieder, Wagener & Rinnert - a neural correlate of sensory consciousness in a corvid bird](https://www.science.org/doi/abs/10.1126/science.abb1447). In the place of a crow brain we substitute the LinUCB contextual bandit active learning algorithm combined with a simple feature generation layer, which is able to learn to perform the task successfully.
+*	Interactive demo: [crow-bandit-brain](https://github.com/fcostin/crow-bandit-brain) crudely models the experimental protocol and learning task of a crow, as described in [Nieder, Wagener & Rinnert - a neural correlate of sensory consciousness in a corvid bird](https://www.science.org/doi/abs/10.1126/science.abb1447). In the place of a crow brain we substitute the LinUCB contextual bandit active learning algorithm combined with a simple feature generation layer, which is able to learn to perform the task successfully.
 
 
 ### 2012
