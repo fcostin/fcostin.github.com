@@ -1,50 +1,33 @@
-shameless self-promotion
-------------------------
+## About
 
-Hello there! My name is Reuben Fletcher-Costin. I enjoy writing code. This is a vanity page pointing to some of the code I've written.
+Hi! My name is Reuben Fletcher-Costin. I ply my trade as a software engineer, with experience applying mathematical modelling and combinatorial optimisation algorithms to help make better decisions.
 
-If you'd like to get in touch, you can find my email address on my [github page](https://github.com/fcostin).
-
-### open source
-
-*   Optimisations to Ridge Regression GCV code. [Here's the pull request](https://github.com/scikit-learn/scikit-learn/pull/650). This is a contribution to the [scikit-learn](http://scikit-learn.org) machine learning library for python.
-
-### strange things I have coded for my own amusement
-
-1.  [weighted_median](https://github.com/fcostin/weighted_median) - a library to
-    compute the weighted median, in C++.
-2.  [hangman_cpp](https://github.com/fcostin/hangman_cpp) - a program to figure
-    out who wins the game of "adversarial" hangman if both players play
-    optimally. The code, written in C++, carries out a full depth alpha-beta pruned
-    search over the game tree. There's a brief write up of the problem, the
-    approach, and a partially complete table of computed results
-    [over here](http://fcostin.github.com/hangman_results/). The cases I haven't
-    computed yet are the ones where the alpha-beta search didn't terminate after
-    leaving my computer on overnight.
-3.  [abfc](https://github.com/fcostin/abfc) - a self hosting compiler for the esoteric
-    [brainfuck](http://en.wikipedia.org/wiki/Brainfuck) language, targeting GNU
-    assembly backends for `ia32` and `x86_64`. Actually there are two compilers in this
-    project - the second compiler is for a python DSL macro-language that targets
-    brainfuck. This latter compiler, implemented in python, is used to generate the
-    source of the former self-hosting brainfuck compiler. This sure beats writing
-    the self-hosting brainfuck compiler in brainfuck by hand.
-4.  [abfc_hs](https://github.com/fcostin/abfc_hs) - a Haskell port of
-    [abfc](https://github.com/fcostin/abfc)'s python DSL macro-language
-    to brainfuck compiler. Includes a parser for the macro-language implemented
-    using the lovely [Parsec](http://www.haskell.org/haskellwiki/Parsec) combinator
-    library.
-5.  [learnmeahaskell](https://github.com/fcostin/learnmeahaskell) - some early
-    exploratory programs written to help learn Haskell. The most interesting one
-    is a noughts-and-crosses game against the computer, featuring a crude GUI via
-    SDL bindings and multithreading via `Control.Concurrent`.
-6.  [eve_space_trucker](https://github.com/fcostin/eve_space_trucker) - a utility
-    to plan profitable trade routes for the game Eve Online, written in `C#`.
+I am interested in probabilistic modelling and Bayesian inference.
 
 
-### elsewhere
+## Projects, Open-source
 
-*   I've entered the odd machine learning competition at [kaggle.com](http://kaggle.com).
-    My best result to date is placing 3rd globally in the 24 hour Data Science Global
-    Hackathon as part of a team with Thom and Mike. [Here's my kaggle profile](http://www.kaggle.com/users/5218/roobs#profile-results).
-*   [my profile](http://projecteuler.net/profile/a_roobs.png) over at [project euler](http://projecteuler.net/)
-*   I was mucking about with [code golf](http://en.wikipedia.org/wiki/Code_golf) over on stack exchange a while ago. Here's [my profile](http://codegolf.stackexchange.com/users/516/roobs). Did you know there's also a programming language called [GolfScript](http://www.golfscript.com/golfscript/)? It's pretty crazy.
+### 2021
+
+*	Open source: [hmmlearn](https://hmmlearn.readthedocs.io/en/latest/) -- fix multi-sequence fit for Gaussian mixture model hidden Markov model ([pull-request](https://github.com/hmmlearn/hmmlearn/pull/417)).
+
+*	Prototype: [hmmmix](https://github.com/fcostin/hmmmix) implements a MAP inference algorithm for mixtures of hidden Markov models. By framing the MAP inference problem as a joint maximisation over the models participating in the mixture, their hidden states, and their contributions to the observed variables, we can formulate the maximisation problem as an exact set cover problem in exponentially many decision variables. The exact set cover problem can be approximated by a linear relaxation, and we can apply column-generation to efficiently search the exponentially large implicit search space. The algorithm iteratively solves a relaxed set cover problem in a reduced number of variables, recovers the optimal dual solution, then uses the dual solution to set "prizes" for a Viterbi-like dynamic programming algorithm to search for a MAP estimate of a hidden Markov model to add into the mixture that can improve the global objective function during the next iteration.
+
+*	Prototype: [hphmm](https://github.com/fcostin/hybrid_poisson_hmm) considers a discrete hidden Markov model for event counts with additive Poisson noise. When the rate of the Poisson noise is unknown, exactly computing the posterior distribution requires an amount of memory and compute that grows proportionally with the total number of observed events. If we assume the conditional posterior distribution for the unknown noise rate given the state can be approximated as a Gamma distribution, we can prevent the number of parameters from blowing up by fitting a Gamma distribution to minimise the approximation error -- in the sense of KL-divergence -- each time step. This approximation scheme is compared with a much simpler grid approximation scheme where the noise rate is discretised.
+
+### 2020
+
+*	Interactive demo: [crow-bandit-brain](https://fcostin.github.io/crow-bandit-brain/) crudely models the experimental protocol and learning task of a crow, as described in [Nieder, Wagener & Rinnert - a neural correlate of sensory consciousness in a corvid bird](https://www.science.org/doi/abs/10.1126/science.abb1447). In the place of a crow brain we substitute the LinUCB contextual bandit active learning algorithm combined with a simple feature generation layer, which is able to learn to perform the task successfully.
+
+
+### 2012
+
+*	Open source: [scikit-learn](https://scikit-learn.org) -- improve performance of ridge regression generalised cross-validation ([pull-request](https://github.com/scikit-learn/scikit-learn/pull/650)).
+
+*	Hobby project: [abfc](https://github.com/fcostin/abc), a compiler for the esoteric brainfuck programming language, implemented in brainfuck; [abfc_hs](https://github.com/fcostin/abfc_hs), a parser and compiler for a macro language used to express above brainfuck compiler.
+
+
+### Contact
+
+If you'd like to get in touch, you are welcome to email me at [reuben.fletchercostin@gmail.com](mailto:reuben.fletchercostin@gmail.com).
+
