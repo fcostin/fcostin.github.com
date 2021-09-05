@@ -28,11 +28,8 @@ git add -f index.html
 git add -f static
 git commit -m 'publishing index.html ...'
 
-# delete the remote master branch
-git push origin :master
-
-# push our new one
-git push origin HEAD:master
+# replace the remote master branch with our new one
+git push origin --force-with-lease HEAD:master
 
 # switch back to markdown and destroy the local master branch
 git checkout markdown
